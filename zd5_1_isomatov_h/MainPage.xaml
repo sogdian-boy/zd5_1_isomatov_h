@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd5_1_isomatov_h.MainPage"
+             Title="Main">
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Label x:Name="header" Text="Subject" StyleId="header" />
+        <Label Text="MATH" StyleClass="english" />
+        <Label Text="Математика" StyleClass="russian" />
+        <Label Text="LITERATURE" StyleClass="english" />
+        <Label Text="Литература" StyleClass="russian" />
+        <Label Text="ENGLISH" StyleClass="english" />
+        <Label Text="Английский язык" StyleClass="russian" />
+    </StackLayout>
+</ContentPage>
