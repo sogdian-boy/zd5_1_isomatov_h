@@ -1,6 +1,5 @@
 ﻿using Xamarin.Forms;
-
-using zd5_1_isomatov_h;
+using CreditCalculator;
 namespace HelloApp
 {
     public partial class WelcomePage : ContentPage
@@ -18,7 +17,7 @@ namespace HelloApp
                 return;
             }
 
-            await Navigation.PushAsync(new MainPage(usernameEntry.Text));
+            await Navigation.PushAsync(new MainPage());
         }
     }
 }
